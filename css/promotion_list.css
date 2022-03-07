@@ -85,484 +85,74 @@
 
 
 #section01{
-    background:url(../img2/1main/pp_bg.jpg);
-    height:980px;
+    background:url(../img2/2profile/main_bg.jpg);
+    height:1500px;
 }
 
-
-
-.mainicon{
-    position: relative;
-    width: 1780px;
-    height: 890px;
+.window_container{
+    position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
 
 }
 
-.iconct01{
-    cursor: pointer;
-    position: absolute;
-    left: 70px;
-    top: 30px;
-}
-
-.iconct02{
-    cursor: pointer;
-    position: absolute;
-    left: 70px;
-    bottom: 50px;
-}
-
-.iconct03{
-    cursor: pointer;
-    position: absolute;
-    right: 200px;
-    bottom: 230px;
-}
-
-.iconct04{
-    cursor: pointer;
-    position: absolute;
-    right: 80px;
-    bottom: 230px;
-}
-
-
-
-
-.pfwindow-container{
-    position: absolute;
-    opacity: 0;
-    transform:translateY(300px);
-    transition: all 1s;
-}
-
-
-#section01 .pfwindow-container.on{
-    transform:none;
-    opacity:1;
-
+.window_container > div:hover {
+    /* margin-bottom: -300px; */
+    transition: all 0.2s linear;
 
 }
+.window_container > div img  {
+    transition: all 0.2s linear;
 
-
-.pfwindow {
-    width: 1920px;
-    position: absolute;
-    text-align: center;
-    top: 40px;
+    /*height: 90px;*/
 }
 
-#section01 .pftitle{
-    position: absolute;
-    text-align: center;
-    top: 100px;
-    left: 850px;
+.window_container > div:hover  img{
+    transform: scale(1.2);
+
+    /*height: 90px;*/
 }
 
-#section01 .charac_box{
-    position: absolute;
-
-}
-
-#section01 .charac{
-    position: absolute;
-    left: 660px;
-    top: 150px;
-
-}
-
-.chawd01{
-    position: absolute;
-    left: 860px;
-    top: 200px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-
-#section01 .chawd01.on{
-    transform:none;
-    opacity:1;
-
-}
-
-.chawd02{
-    position: absolute;
-    left: 710px;
-    top: 230px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-
-#section01 .chawd02.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-.chawd03{
-    position: absolute;
-    left: 880px;
-    top: 490px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-
-#section01 .chawd03.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-.chawd04{
-    position: absolute;
-    left: 730px;
-    top: 600px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-
-#section01 .chawd04.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-
-.chawd05{
-    position: absolute;
-    left: 890px;
-    top: 670px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-
-#section01 .chawd05.on{
-    transform:none;
-    opacity:1;
-
-}
-
-.character{
-    position: absolute;
-    left: 667px;
-    top: 170px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 1.5s;
-}
-#section01 .character.on {
-    transform: none;
-    opacity: 1;
-}
-
-
-
-.button01{
-    width: 131px;
-    height: 72px;
-    position: absolute;
-    left: 1600px;
-    top: 160px;
-    cursor: pointer;
-    z-index: 999;
-}
-
-.button02{
-    position: absolute;
-    left: 550px;
-    top: 275px;
-    opacity: 0;
-    transform: scale(00);
-    transition: all 0.5s;
-}
-#section01 .button02.on {
-    transform: none;
-    opacity: 1;
-}
-
-
-
-
-
-.profiletxt_container{
-    /*position: absolute;*/
-    /*display: flex;*/
-}
-
-.pftt01{
-    position: relative;
-    left: 200px;
-    top: 170px;
-}
-
-.profiletxt01{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt01.on{
-    transform:none;
-    opacity:1;
-
-}
-.profiletxt02{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt02.on{
-    transform:none;
-    opacity:1;
-
-}
-
-.profiletxt03{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt03.on{
-    transform:none;
-    opacity:1;
-
-}
-.profiletxt04{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt04.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-.profiletxt05{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt05.on{
-    transform:none;
-    opacity:1;
-
-}
-
-.profiletxt06{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt06.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-
-
-
-
-.pftt02{
-    /*width: 673px;*/
-    top: 165px;
-    right: 200px;
-    position: absolute;
-    display: flex;
-}
-
-.profiletxt07{
-    bottom: 155px;
-    position: absolute;
-    right: 200px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s;
-}
-
-#section01 .profiletxt07.on{
-    transform:none;
-    opacity:1;
-
-}
-
-
-.skills_all {
-    position: absolute;
-    right: 475px;
-    top: 289px;
-    opacity: 0;
+.window_container > div:hover + div{
     transform: translateY(100px);
-    transition: all 1s;
-}
-
-#section01 .skills_all.on{
-    transform:none;
-    opacity:1;
-
 
 }
 
 
-
-.skillsline_container {
+.window04 {
     position: absolute;
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
+    top: 0px;
+    transition: all 0.2s linear;
 }
-
-#section01 .skillsline_container.on{
-    transform:none;
-    opacity:1;
-}
-
-
-.skillsbox_container{
-    position: absolute;
-}
-
-/*.skillsline_container > div{*/
-/*    opacity: 0;*/
-/*    left:100%; top:0; bottom:0; right:-100px;*/
-/*    text-align:center;*/
-/*    transform: scaleX(00) translateX(-50px);*/
-/*    transition: all 1s;*/
+/*.window04:hover  {*/
+/*    !*transform: scale(1.2);*!*/
+/*    height: 2000px;*/
 /*}*/
 
-/*#section01 .skillsline_container > div .on{*/
-/*    transform:none;*/
-/*    opacity:1;*/
+.window05 {
+    position: relative;
+    top: 500px;
+    transition: all 0.2s linear;
+}
+/*.window05:hover  {*/
+/*    !*transform: scale(1.2);*!*/
+/*    height: 2000px;*/
 /*}*/
 
-.skillsline01{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline01.on{
-    transform:none;
-    opacity:1;
-}
-
-.skillsline02{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline02.on{
-    transform:none;
-    opacity:1;
-}
-
-
-.skillsline03{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline03.on{
-    transform:none;
-    opacity:1;
-}
-
-.skillsline04{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline04.on{
-    transform:none;
-    opacity:1;
-}
-
-.skillsline05{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline05.on{
-    transform:none;
-    opacity:1;
-}
-
-.skillsline06{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline06.on{
-    transform:none;
-    opacity:1;
-}
-
-.skillsline07{
-    opacity: 0;
-    left:100%; top:0; bottom:0; right:-100px;
-    text-align:center;
-    transform: scaleX(00) translateX(-50px);
-    transition: all 1s;
-}
-
-#section01 .skillsline07.on{
-    transform:none;
-    opacity:1;
-}
 
 
 
 
 
 
-.fly1 {animation: motion 0.7s linear 0s infinite alternate; margin-top: 0;}
 
-@keyframes motion {
-    0% {margin-top: 0px;}
-    100% {margin-top: 10px;}
-}
 
-.fly2 {animation: motion 0.9s linear 0s infinite alternate; margin-top: 0;}
 
-@keyframes motion {
-    0% {margin-top: 0px;}
-    100% {margin-top: 10px;}
-}
+
+
+
+
+
+
+
