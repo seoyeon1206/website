@@ -275,6 +275,7 @@
     left: 1600px;
     top: 160px;
     cursor: pointer;
+    z-index: 999;
 }
 
 .button02{
