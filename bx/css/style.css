@@ -23,6 +23,66 @@
     background: #ebebeb;
 }
 
+#header{
+    /*width: 900px;*/
+    height: 50px;
+    cursor: pointer;
+    /*background: hotpink;*/
+    /*margin-bottom: px;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 4px solid black ;
+
+
+}
+
+#header .gnb-container{
+    cursor: pointer;
+    display: flex;
+
+}
+
+#header .gnb-right{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+
+.gnb02 {
+    opacity: 0.3;
+}
+.gnb02:hover  {
+    opacity: 1;
+}
+
+.gnb03 {
+    opacity: 0.3;
+}
+.gnb03:hover  {
+    opacity: 1;
+}
+.gnb04 {
+    opacity: 0.3;
+}
+.gnb04:hover  {
+    opacity: 1;
+}
+.gnb05 {
+    opacity: 0.3;
+}
+.gnb05:hover  {
+    opacity: 1;
+}
+
+.gnb06 {
+    opacity: 0.3;
+}
+.gnb06:hover  {
+    opacity: 1;
+}
+
 
 
 
