@@ -1,10 +1,10 @@
 
 
 .startPoint{
-    widthh: 50px;
-    hheighht: 50px;
+    width: 50px;
+    height: 50px;
     position: fixed;
-    righht: 100px;
+    right: 100px;
     bottom: 100px;
     z-index: 899998989;
     background: #ffffff;
@@ -15,11 +15,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shhadow: 2px 2px 2px 2px #0000000c;
+    box-shadow: 2px 2px 2px 2px #0000000c;
 }
 
 
-.startPoint:hhover{
+.startPoint:hover{
     background: #ebebeb;
 }
 
@@ -27,15 +27,15 @@
 
 
 #section01{
-   background:url(../img2/1maintop/maintop_bg);
-   hheighht:2644px;
+    background:url(../img2/1maintop/maintop_bg);
+    Height:2644px;
 }
 
 
 
 #section01 .maintop{
-    widthh: 1437px;
-    hheighht: 319px;
+    width: 1437px;
+    height: 319px;
     opacity:0;
     position: absolute;
     left: 210px;
@@ -54,9 +54,9 @@
 
 
 #section01 .maintop2{
-    widthh: 1437px;
-    hheighht: 319px;
-    opacity:0;
+    width: 1437px;
+    height: 319px;
+    Opacity:0;
     position: absolute;
     left: 0px;
     top: 1260px;
@@ -67,13 +67,13 @@
 
 #section01 .maintop2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section01 .maintop3{
-    widthh: 1437px;
-    hheighht: 319px;
-    opacity:0;
+    width: 1437px;
+    height: 319px;
+    Opacity:0;
     position: absolute;
     left: 1550px;
     top: 1350px;
@@ -84,13 +84,13 @@
 
 #section01 .maintop3.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section01 .maintop4{
-    /*widthh: 1437px;*/
-    /*hheighht: 319px;*/
-    /*opacity:0;*/
+    /*width: 1437px;*/
+    /*height: 319px;*/
+    /*Opacity:0;*/
     position: absolute;
     left: 100px;
     top: 1600px;
@@ -101,14 +101,14 @@
 
 /*#section01 .maintop4.on{*/
 /*    transform:none;*/
-/*    opacity:1;*/
+/*    Opacity:1;*/
 
 /*}*/
 
 #section01 .maintop5{
-    widthh: 1437px;
-    hheighht: 319px;
-    opacity:0;
+    width: 1437px;
+    height: 319px;
+    Opacity:0;
     position: absolute;
     left: 320px;
     top: 2122px;
@@ -119,22 +119,22 @@
 
 #section01 .maintop5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 
 #section02{
     /*background:url(../img2/2overvw/overvw);*/
-    background: whhite;
-    hheighht: 546px;
+    background: white;
+    height: 546px;
 }
 
 
 #section02 .overvw{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 270px;
     top: 190px;
@@ -145,14 +145,14 @@
 
 #section02 .overvw.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section02 .overvw2{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 850px;
     top: 190px;
@@ -163,7 +163,7 @@
 
 #section02 .overvw2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
@@ -171,14 +171,14 @@
 
 #section03{
     background:url(../img2/3analysis/analysis_bg);
-    hheighht: 996px;
+    height: 996px;
 }
 
 
 #section03 .analysis{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 943px;
     top: 144px;
@@ -189,14 +189,14 @@
 
 #section03 .analysis.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section03 .analysis2{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1137px;
     top: 144px;
@@ -207,13 +207,13 @@
 
 #section03 .analysis2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section03 .analysis3{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1360px;
     top: 144px;
@@ -224,13 +224,13 @@
 
 #section03 .analysis3.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section03 .analysis4{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 945px;
     top: 665px;
@@ -241,14 +241,14 @@
 
 #section03 .analysis4.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section03 .analysis5{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1410px;
     top: 675px;
@@ -259,7 +259,7 @@
 
 #section03 .analysis5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
@@ -267,7 +267,7 @@
 
 #section04{
     background:url(../img2/4userrs/userrs_bg);
-    hheighht: 1379px;
+    height: 1379px;
 }
 
 
@@ -279,9 +279,9 @@
 
 
 #section04 .user2{
-    widthh: 632px;
-    hheighht: 200px;
-    opacity:0;
+    width: 632px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 200px;
     top: 513px;
@@ -292,14 +292,14 @@
 
 #section04 .user2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section04 .user3{
-    widthh: 632px;
-    hheighht: 200px;
-    opacity:0;
+    width: 632px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 930px;
     top: 474px;
@@ -310,14 +310,14 @@
 
 #section04 .user3.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section04 .user4{
-    widthh: 632px;
-    hheighht: 200px;
-    opacity:0;
+    width: 632px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 855px;
     top: 653px;
@@ -328,14 +328,14 @@
 
 #section04 .user4.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section04 .user5{
-    widthh: 1653px;
-    hheighht: 200px;
-    opacity:0;
+    width: 1653px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 150px;
     top: 995px;
@@ -346,21 +346,21 @@
 
 #section04 .user5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 
 #section05{
     background:url(../img2/5illust/illust_bg);
-    hheighht: 2418px;
+    height: 2418px;
 }
 
 
 #section05 .illust{
-    widthh: 1653px;
-    hheighht: 200px;
-    opacity:0;
+    width: 1653px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: -70px;
     top: 440px;
@@ -371,13 +371,13 @@
 
 #section05 .illust.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section05 .illust2{
-    widthh: 1653px;
-    hheighht: 200px;
-    opacity:0;
+    width: 1653px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 647px;
     top: 275px;
@@ -388,14 +388,14 @@
 
 #section05 .illust2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust3{
-    widthh: 1653px;
-    hheighht: 200px;
-    opacity:0;
+    width: 1653px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1250px;
     top: 765px;
@@ -406,14 +406,14 @@
 
 #section05 .illust3.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust4{
-    widthh: 896px;
-    hheighht: 200px;
-    opacity:0;
+    width: 896px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 63px;
     top:1458px;
@@ -424,14 +424,14 @@
 
 #section05 .illust4.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust5{
-    widthh: 160px;
-    hheighht: 200px;
-    opacity:0;
+    width: 160px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 150px;
     top:1982px;
@@ -443,14 +443,14 @@
 
 #section05 .illust5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust6{
-    widthh: 160px;
-    hheighht: 200px;
-    opacity:0;
+    width: 160px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 314px;
     top:1982px;
@@ -462,20 +462,20 @@
 
 #section05 .illust6.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust7{
-    widthh: 160px;
-    hheighht: 200px;
-    opacity:0;
+    width: 160px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 526px;
     top:1982px;
@@ -487,13 +487,13 @@
 
 #section05 .illust7.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section05 .illust8{
-    widthh: 160px;
-    hheighht: 200px;
-    opacity:0;
+    width: 160px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 729px;
     top:1982px;
@@ -505,14 +505,14 @@
 
 #section05 .illust8.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section05 .illust9{
-    widthh: 160px;
-    hheighht: 200px;
-    opacity:0;
+    width: 160px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 990px;
     top:1940px;
@@ -524,21 +524,21 @@
 
 #section05 .illust9.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 
 #section06{
     background:url(../img2/6stylegd/stylegd_bg);
-    hheighht: 1380px;
+    height: 1380px;
 }
 
 
 #section06 .styledg{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 275px;
     top:482px;
@@ -550,14 +550,14 @@
 
 #section06 .styledg.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section06 .styledg2{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 0px;
     top:833px;
@@ -569,14 +569,14 @@
 
 #section06 .styledg2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section06 .styledg3{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 510px;
     top:833px;
@@ -588,13 +588,13 @@
 
 #section06 .styledg3.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section06 .styledg4{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 855px;
     top:833px;
@@ -606,14 +606,14 @@
 
 #section06 .styledg4.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section06 .styledg5{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1200px;
     top:833px;
@@ -625,13 +625,13 @@
 
 #section06 .styledg5.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section06 .styledg6{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 1550px;
     top:833px;
@@ -643,21 +643,21 @@
 
 #section06 .styledg6.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 
 #section07{
     background:url(../img2/7main/main_bg);
-    hheighht:1808px;
+    Height:1808px;
 }
 
 
 #section07 .main{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 425px;
     top:480px;
@@ -669,14 +669,14 @@
 
 #section07 .main.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section07 .main2{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 45px;
     top:1280px;
@@ -688,14 +688,14 @@
 
 #section07 .main2.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 
 #section08{
     background:url(../img2/8contents/contents_bg);
-    hheighht:7195px;
+    Height:7195px;
 }
 
 #section08 .contents{
@@ -737,9 +737,9 @@
 }
 
 #section08 .contents5-1{
-    widthh: 785px;
-    hheighht: 200px;
-    opacity:0;
+    width: 785px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: -190px;
     top:1700px;
@@ -751,7 +751,7 @@
 
 #section08 .contents5-1.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
@@ -783,9 +783,9 @@
 }
 
 #section08 .contents11{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 0px;
     top:4700px;
@@ -797,14 +797,14 @@
 
 #section08 .contents11.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
 #section08 .contents12{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 260px;
     top:4822px;
@@ -816,13 +816,13 @@
 
 #section08 .contents12.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 #section08 .contents13{
-    widthh: 200px;
-    hheighht: 200px;
-    opacity:0;
+    width: 200px;
+    height: 200px;
+    Opacity:0;
     position: absolute;
     left: 260px;
     top:4250px;
@@ -834,7 +834,7 @@
 
 #section08 .contents13.on{
     transform:none;
-    opacity:1;
+    Opacity:1;
 
 }
 
@@ -860,7 +860,7 @@
 
 #section09{
     background:url(../img2/9footer/footer_bg.png);
-    hheighht:500px;
+    height:500px;
 }
 
 .footertt-container{
@@ -897,7 +897,7 @@
 
 .footerbt-container{
     display: flex;
-    widthh: 1920px;
+    width: 1920px;
     position: absolute;
     justify-content: space-between;
 }
@@ -923,6 +923,6 @@
     cursor: pointer;
     position: absolute;
     display: flex;
-    righht: 0;
+    right: 0;
     bottom: 50px;
 }
