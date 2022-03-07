@@ -1,0 +1,710 @@
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: #ffffff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #0000000c;
+}
+
+
+.startPoint:hover{
+    background: #ebebeb;
+}
+
+
+
+
+#section01{
+   background:url(../img2/1main/main_bg);
+   Height:1086px;
+}
+
+
+
+#section01 .main{
+    width: 200px;
+    height: 200px;
+    Opacity
+
+
+
+:0;
+    position: absolute;
+    left: 105px;
+    top: 147px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section01 .main.on{
+    transform:none;
+    Opacity:1;
+ 
+}
+
+
+
+
+
+#section01 .main2{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 861px;
+    top: 865px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section01 .main2.on{
+    transform:none;
+    Opacity:1;
+ 
+}
+
+
+#section02{
+    background:url(../img2/2mainct/mainct_bg);
+    Height:2037px;
+}
+
+
+#section02 .mainct{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 105px;
+    top: 500px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section02 .mainct.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section02 .mainct2{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 0px;
+    top: 960px;
+
+    transform:translateX(-300px);
+    transition: all 1s;
+}
+
+
+#section02 .mainct2.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section02 .mainct3{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 770px;
+    top: 1670px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section02 .mainct3.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+#section03{
+    background:url(../img2/3overvw/overvw_bg);
+    Height:785px;
+}
+
+
+#section03 .overvw{
+    width: 220px;
+    height: 26px;
+    Opacity:0;
+    position: absolute;
+    left: 235px;
+    top: 430px;
+
+    transform:scale(00);
+    transition: all 1s;
+}
+
+
+#section03 .overvw.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section03 .overvw2{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 920px;
+    top: 370px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section03 .overvw2.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+
+#section04{
+    background:url(../img2/4analysis/analysis_bg);
+    Height:1211px;
+
+}
+
+#section04 .analysis{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 745px;
+    top: 320px;
+
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section04 .analysis.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section04 .analysis2{
+    width: 315px;
+    height: 170px;
+    Opacity:0;
+    position: absolute;
+    left: 745px;
+    top: 564px;
+
+    transform:scale(00);
+    transition: all 1s;
+}
+
+
+#section04 .analysis2.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section04 .analysis3{
+    width: 315px;
+    height: 75px;
+    Opacity:0;
+    position: absolute;
+    left: 1415px;
+    top: 665px;
+    transform:scale(00);
+    transition: all 1s;
+}
+
+
+#section04 .analysis3.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+#section05{
+    background:url(../img2/5asistobe/asistobe_bg);
+    Height:1093px;
+
+}
+
+
+#section05 .asistobe{
+    width: 315px;
+    height: 75px;
+    Opacity:0;
+    position: absolute;
+    left: 195px;
+    top: 500px;
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section05 .asistobe.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section05 .asistobe2{
+    width: 315px;
+    height: 75px;
+    Opacity:0;
+    position: absolute;
+    left: 195px;
+    top: 760px;
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section05 .asistobe2.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+#section06{
+    background:url(../img2/6stylegd/stylegd_bg);
+    Height:1002px;
+
+}
+
+
+#section06 .stylegd{
+    width: 315px;
+    height: 75px;
+    Opacity:0;
+    position: absolute;
+    left: 195px;
+    top: 410px;
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section06 .stylegd.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section06 .stylegd2{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 195px;
+    top: 773px;
+    transform:translateX(-200px);
+    transition: all 1s;
+}
+
+
+#section06 .stylegd2.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section06 .stylegd3{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 496px;
+    top: 773px;
+    transform:translateX(-200px);
+    transition: all 1s;
+}
+
+
+#section06 .stylegd3.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section06 .stylegd4{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 640px;
+    top: 773px;
+    transform:translateX(-200px);
+    transition: all 1s;
+}
+
+
+#section06 .stylegd4.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section06 .stylegd5{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 784px;
+    top: 773px;
+    transform:translateX(-200px);
+    transition: all 1s;
+}
+
+
+#section06 .stylegd5.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+#section07{
+    background:url(../img2/7contents/contents_bg);
+    Height:5434px;
+
+}
+
+
+#section07 .contents{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 465px;
+    top: 80px;
+    transform:translateX(200px);
+    transition: all 1s;
+}
+
+
+#section07 .contents.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section07 .contents2{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 1210px;
+    top: 2150px;
+    transform:translateX(200px);
+    transition: all 1s;
+}
+
+
+#section07 .contents2.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section07 .contents3{
+    width: 200px;
+    height: 200px;
+    Opacity:0;
+    position: absolute;
+    left: 0px;
+    top: 3700px;
+    transform:translateX(-300px);
+    transition: all 1s;
+}
+
+
+#section07 .contents3.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section07 .contents4{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: 729px;
+    top: 3492px;
+    transform:scale(00 );
+    transition: all 1s;
+}
+
+
+#section07 .contents4.on {
+    transform: none;
+    Opacity: 1;
+
+}
+
+/*#section07 .contents5{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    Opacity:0;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 4695px;*/
+/*    z-index: 1;*/
+/*    transform:translateY(300px);*/
+/*    transition: all 1s;*/
+/*}*/
+
+/*#section07 .contents5.on{*/
+/*    transform:none;*/
+/*    Opacity:1;*/
+/*    animation-name: slide-left;*/
+/*    animation-duration: 20s;*/
+/*    animation-fill-mode: both;*/
+/*}*/
+
+
+#section07 .contents5{
+    left: 0;
+    top: 4695px;
+    position: absolute;
+    animation: rolling1 20s infinite linear;
+
+}
+
+@keyframes rolling1 {
+    to{
+        transform: translateX(-2305px);
+    }
+}
+
+
+
+
+#section08{
+    background:url(../img2/8layout/layout_bg);
+    Height:2514px;
+
+}
+
+
+#section08 .layout{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: 0px;
+    top: 370px;
+    transform:translateX(-300px);
+    transition: all 1s;
+}
+
+
+#section08 .layout.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section08 .layout2{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: -100px;
+    top: 570px;
+    z-index: 3;
+    transition: all 1s;
+}
+
+
+#section08 .layout2.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+/*.layout2 {*/
+/*    position: absolute;*/
+/*    left: -100px;*/
+/*    top: 570px;*/
+/*    z-index: 3;*/
+/*}*/
+
+#section08 .movie{
+    position: absolute;
+    left: -167px;
+    top: 572px;
+    z-index: 2;
+}
+video {
+    border-radius: 95px;
+}
+
+#section09{
+    background:url(../img2/9product/product_bg);
+    Height:5419px;
+
+}
+
+#section09 .product0{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: 0px;
+    top: 2080px;
+    transform: translateY(-500px);
+    transition: all 1s;
+}
+
+
+#section09 .product0.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+#section09 .product{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+#section09 .product.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section09 .product2{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: 1100px;
+    top: -100px;
+    transform: translateY(-300px);
+    transition: all 1s;
+}
+
+
+#section09 .product2.on{
+    transform:none;
+    Opacity:1;
+
+}
+#section09 .product3{
+    width: 247px;
+    height: 358px;
+    Opacity:0;
+    position: absolute;
+    left: -100px;
+    top: 1300px;
+    transform: translateX(-300px);
+    transition: all 1s;
+}
+
+
+#section09 .product3.on{
+    transform:none;
+    Opacity:1;
+
+}
+
+
+
+#section10{
+    background:url(../img2/10footer/footer_bg.png);
+    height:500px;
+}
+
+.footertt-container{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
+.ft_title{
+    opacity: 0;
+    transform:translateY(50px);
+    transition: all 1s;
+}
+
+
+.ft_title.on{
+    transform:none;
+    opacity:1;
+
+}
+
+.ft_title2{
+    opacity: 0;
+    transform:translateY(50px);
+    transition: all 1s;
+}
+
+
+.ft_title2.on{
+    transform:none;
+    opacity:1;
+
+}
+
+.footerbt-container{
+    display: flex;
+    width: 1920px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.ft_button1{
+    cursor: pointer;
+}
+
+.ft_button2{
+    cursor: pointer;
+}
+
+
+.ft_contact{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+
+}
+
+
+.footer-listbutton{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 50px;
+}
+

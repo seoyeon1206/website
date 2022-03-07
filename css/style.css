@@ -1,0 +1,292 @@
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: #ffffff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #0000000c;
+}
+
+
+.startPoint:hover{
+    background: #ebebeb;
+}
+
+#header{
+    /*width: 900px;*/
+    height: 50px;
+    cursor: pointer;
+    /*background: hotpink;*/
+    /*margin-bottom: px;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 4px solid black ;
+
+
+}
+
+#header .gnb-container{
+    cursor: pointer;
+    display: flex;
+
+}
+
+#header .gnb-right{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+
+.gnb02 {
+    opacity: 0.3;
+}
+.gnb02:hover  {
+    opacity: 1;
+}
+
+.gnb03 {
+    opacity: 0.3;
+}
+.gnb03:hover  {
+    opacity: 1;
+}
+.gnb04 {
+    opacity: 0.3;
+}
+.gnb04:hover  {
+    opacity: 1;
+}
+.gnb05 {
+    opacity: 0.3;
+}
+.gnb05:hover  {
+    opacity: 1;
+}
+
+.gnb06 {
+    opacity: 0.3;
+}
+.gnb06:hover  {
+    opacity: 1;
+}
+
+
+#section01{
+   background:url(../img2/1main/pp_bg.jpg);
+   height:980px;
+}
+
+.title-container{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#section01 .maintt_name{
+    opacity: 0;
+    transform:scale(00);
+    transition: all 1s;
+}
+
+
+#section01 .maintt_name.on{
+    transform:none;
+    opacity:1;
+
+}
+
+#section01 .maintitle{
+    opacity: 0;
+    transform:translateY(100px);
+    transition: all 1s;
+}
+
+
+#section01 .maintitle.on{
+    transform:none;
+    opacity:1;
+
+}
+
+.mainicon{
+    position: relative;
+    width: 1780px;
+    height: 890px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.iconct01{
+    cursor: pointer;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+
+.iconct02{
+    cursor: pointer;
+    position: absolute;
+    left: 70px;
+    bottom: 50px;
+}
+
+.iconct03{
+    cursor: pointer;
+    position: absolute;
+    right: 200px;
+    bottom: 230px;
+}
+
+.iconct04{
+    cursor: pointer;
+    position: absolute;
+    right: 80px;
+    bottom: 230px;
+}
+
+
+/*.mainwindow-container{*/
+/*    position: absolute;*/
+/*    left: 1610px;*/
+/*    top: 815px;*/
+
+/*}*/
+
+
+
+
+
+
+
+.mainwindow{
+    width: 1920px;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    opacity: 0;
+    transform:translateY(300px);
+    transition: all 1s;
+}
+
+
+#section01 .mainwindow.on{
+    transform:none;
+    opacity:1;
+
+}
+
+.clickpop{
+    opacity: 0;
+    position: absolute;
+
+    right: 210px;
+    top: 260px;
+}
+.clickpop.on{
+    transform:none;
+    opacity:1;
+
+}
+
+
+.btn{
+    background-color: rgba(0,0,0,0);
+    /*background-color: #111111;*/
+    width: 440px;
+    height: 175px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 290px;
+    top: 300px;
+    /*opacity: 0.3;*/
+
+}
+.btn2{
+    background-color: rgba(0,0,0,0);
+    /*background-color: #111111;*/
+    width: 210px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 400px;
+    top: 690px;
+    /*opacity: 0.3;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+/*#section02{*/
+/*    background: red;*/
+/*}*/
+
+/*.box{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background:blue;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform: translate(-100px,0);*/
+/*    opacity: 0;*/
+/*    transition: all 1s;*/
+/*}*/
+
+
+/*.box.on{*/
+/*    transform: translate(0,0);*/
+/*    opacity: 1;*/
+/*}*/
+
+
+
+/*#section03 .block{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background:red;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform:scale(0);*/
+/*    transition: all 1s;*/
+/*}*/
+/*#section03 .block.on{*/
+/*    transform: scale(1);*/
+/*}*/
+
+
+
+.fly {animation: motion 0.4s linear 0s infinite alternate; margin-top: 0;}
+
+@keyframes motion {
+    0% {margin-top: 0px;}
+    100% {margin-top: 10px;}
+}
