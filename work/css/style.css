@@ -23,7 +23,6 @@
     background: #ebebeb;
 }
 
-
 #header{
     /*width: 900px;*/
     height: 50px;
@@ -83,6 +82,7 @@
 .gnb06:hover  {
     opacity: 1;
 }
+
 
 
 
@@ -209,7 +209,7 @@
 .ft_contact{
     position: absolute;
     left: 50px;
-    bottom: 50px;
+    bottom: 80px;
 
 }
 
@@ -219,7 +219,7 @@
     position: absolute;
     display: flex;
     right: 0;
-    bottom: 50px;
+    bottom: 80px;
 }
 
 

@@ -101,6 +101,17 @@
     top: 100px;
 }
 
+.subtt2{
+    cursor: pointer;
+
+}
+
+.subtt3{
+    position: absolute;
+    cursor: pointer;
+    right: 120px;
+    top: 110px;
+}
 
 #section01 .title-container{
     left: 70px;
@@ -1493,16 +1504,24 @@
 .ft_contact{
     position: absolute;
     left: 50px;
-    bottom: 50px;
+    bottom: 80px;
 
 }
 
 
 .footer-listbutton{
-    cursor: pointer;
+    /*cursor: pointer;*/
     position: absolute;
     display: flex;
     right: 0;
-    bottom: 50px;
+    bottom: 80px;
 }
 
+
+/*.contents2 {text-align: center; margin-top: 20px;}*/
+.click {animation: motion 0.4s linear 0s infinite alternate; margin-top: 0;}
+
+@keyframes motion {
+    0% {margin-top: 0px;}
+    100% {margin-top: 10px;}
+}

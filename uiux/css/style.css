@@ -2387,11 +2387,9 @@
     justify-content: space-between;
 }
 
-.ft_button1{
-    cursor: pointer;
-}
 
 .ft_button2{
+    right: 100px;
     cursor: pointer;
 }
 
@@ -2399,16 +2397,16 @@
 .ft_contact{
     position: absolute;
     left: 50px;
-    bottom: 50px;
+    bottom: 80px;
 
 }
 
 
 .footer-listbutton{
-    cursor: pointer;
+    /*cursor: pointer;*/
     position: absolute;
     display: flex;
     right: 0;
-    bottom: 50px;
+    bottom: 80px;
 }
 
