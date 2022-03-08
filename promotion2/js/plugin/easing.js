@@ -7,7 +7,7 @@
 // --------------------------------------------------
 // All functions adapted from Thomas Fuchs & Jeremy Kahn
 // Easing Equations (c) 2003 Robert Penner, BSD license
-// https://raw.github.com/danro/easing-js/master/LICENSE
+// https://rawhub.com/danro/easing-js/master/LICENSE
 /*
 swingFromTo
 swingFrom
