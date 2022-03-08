@@ -613,12 +613,12 @@ window.addEventListener('DOMContentLoaded', function () {
         }
 
 
-        if(scrollTop >= 29500){
+        if(scrollTop >= 29400){
 
             $('.ft_title').addClass('on');
         }
 
-        if(scrollTop >= 29700){
+        if(scrollTop >= 29500){
 
             $('.ft_title2').addClass('on');
         }
